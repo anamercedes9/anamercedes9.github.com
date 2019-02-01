@@ -1,0 +1,154 @@
+/*
+azul: #1B9AAA
+Bone: #DDDBCB
+Dark jungle green: #162324
+Blanco: #F5F1E3
+*/
+html{
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #407899;
+}
+a:hover{
+  opacity: 0.5;
+}
+
+.title{
+  text-transform: capitalize;
+  text-align: center;
+}
+.container{
+  background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+   background-blend-mode: screen;
+ height: 100vh;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.content{
+  max-width: 960px;
+  width: 100%;
+  height: 80vh;
+  background-color: #EAE8FF;
+  border-radius: 0.7em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.20), 0 4px 6px rgba(0, 0, 0, 0.20);
+  position: relative;
+  padding: 1em;
+  overflow: scroll;
+}
+
+td {
+    display: block;
+    width: 100%
+}
+
+td:nth-of-type(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+th {
+    display: none;
+}
+
+.actions{
+  position: absolute;
+  top: 0.1em;
+  right:0.1em;
+}
+
+.conocenos{
+  height: 25px;
+  width: 70px;
+  color: #407899;
+  background-color: #D3D0CB;
+  border-radius: 10%;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.20), 0 3px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close{
+  height: 40px;
+  width: 40px;
+  color: #407899;
+  background-color: #D3D0CB;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.20), 0 3px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  max-width:100%;
+}
+
+.paragraph{
+  line-height: 1.8em;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.fa-star, .fa-star-half-alt{
+  color: #ECA72C;
+}
+
+  .table{
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  .table td, .table th{
+    padding: 1em;
+    text-align: left;
+  }
+
+.table tr:nth-child(even) {
+  background-color:#D8D5DB
+}
+
+.title-item{
+  font-size: 2em;
+  border-bottom: solid 3px #BCC5CE;
+  padding-bottom: 0.7em;
+}
+
+.main-image{
+  float: left;
+  margin-right: 1em;
+  margin-top: 0.2em;
+  width: 280px;
+  height: 300px;
+}
+
+
+@media (min-width:900px){
+  td{
+    display: table-cell;
+    width: auto;
+  }
+  th{
+    display: table-cell;
+  }
+  td:nth-of-type(1){
+    font-size: 1em;
+  }
+  .content{
+    padding: 1.8em;
+    overflow: auto;
+  }
+  .actions{
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+}

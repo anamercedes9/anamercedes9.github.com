@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Ana Guirnaldos - Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="The Curriculum Vitae of Ana Guirnaldos">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Rokkitt:400,700%7CLato:400,300"
+      rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body id="top">
+    <div id="cv" class="instaFade">
+      <div class="mainDetails">
+        <div id="headshot" class="quickFade"> <img src="perfil.jpg" alt="Alan Smith">
+        </div>
+        <div id="name">
+          <h1 class="quickFade delayTwo">Ana Guirnaldos</h1>
+          <h2 class="quickFade delayThree">Psicóloga Organizacional</h2>
+        </div>
+        <div id="contactDetails" class="quickFade delayFour">
+          <ul>
+            <li>e: anamercedes9@gmail.com<a href="mailto:joe@bloggs.com" target="_blank"></a></li>
+            <li>w: <a href="http://www.bloggs.com">anamercedes9.github.com</a></li>
+            <li>skype: anamercedes9</li>
+            <li><br>
+            </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div id="mainArea" class="quickFade delayFive">
+        <section>
+          <article>
+            <div class="sectionTitle">
+              <h1>Perfil profesional</h1>
+            </div>
+            <div class="sectionContent">
+              <p>Licenciada en psicología, con diplomado en psicología
+                organizacional y conocimientos en front-end, experiencia en el
+                área comercial, atención al cliente y RRHH. Con competencias
+                personales de adaptabilidad, liderazgo, responsabilidad, respeto
+                y trabajo en equipo.</p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="sectionTitle">
+            <h1>Experiencia Laboral</h1>
+          </div>
+          <div class="sectionContent">
+            <h2>Docente - Universidad Centroccidental Lisandro Alvarado</h2>
+            <p class="subDetails">Octubre 2018- Actualidad</p>
+            <p>Preparar la bibliografía necesaria para dar cumplimiento a los
+              objetivos de la asignatura, Implementar distintas estrategias de
+              aprendizaje, Impartir clases semanales, Supervisar el proceso de
+              aprendizaje, Corregir los exámenes aplicados , Enviar al correo de
+              la dirección de programa las calificaciones de los alumnos.</p>
+            <article>
+              <h2> Coordinadora - MálagaSuite Showroom Apartments</h2>
+              <p class="subDetails">Febrero 2018 - Julio 2018</p>
+              <p>Análisis del mercado, Gestión de las solicitudes de
+                reserva,Brindar atención telefónica a los clientes, expresar a
+                los miembros del equipo aspectos a mejorar, Supervisar el
+                proceso de check in, Explicar a los nuevos socios el
+                funcionamiento de la empresa.</p>
+            </article>
+            <article>
+              <h2>Asitente Administrativo - Miguel S. León</h2>
+              <p class="subDetails">Enero 2015 - Agosto 2017</p>
+              <p>Atención al público, Gestión y Reposición de stock,Registro y
+                control de movimientos en caja, venta de productos en tienda,
+                mantenimiento de las área de trabajo.</p>
+            </article>
+            <article>
+              <h2>Pasante de Psic. Organizacional- Covencaucho Industrias S.A</h2>
+              <p class="subDetails">Enero 2015 - Julio 2015</p>
+              <p>Evaluación de riesgos psicosociales, Diseño y ejecución de plan
+                de intervención, Evaluación y selección de personal a través de
+                pruebas psicológicas, Evaluación por entrevistas de
+                competencias.</p>
+            </article>
+          </div>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="sectionTitle">
+            <h1>Competencias</h1>
+          </div>
+          <div class="sectionContent">
+            <ul class="keySkills">
+              <li>Responsabilidad</li>
+              <li>Respeto</li>
+              <li>Adaptabilidad</li>
+              <li>Liderazgo</li>
+              <li>Comunicación</li>
+              <li>Tolerancia</li>
+              <li>Trabajo en equipo</li>
+              <li>Discreción</li>
+              <li>Inglés intermedio</li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="sectionTitle">
+            <h1>Educación</h1>
+          </div>
+          <div class="sectionContent">
+            <h2>UNIVERSIDAD CENTROCCIDENTAL LISANDRO ALVARADO</h2>
+            <p class="subDetails">Diplomado en psicología Organizacional</p>
+            <p class="subDetails"><br>
+            </p>
+            <article>
+              <h2>UNIVERSIDAD CENTROCCIDENTAL LISANDRO ALVARADO</h2>
+              <p class="subDetails">Lcda. en psicología Organizacional</p>
+            </article>
+          </div>
+          <div class="clear"></div>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  </body>
+</html>
